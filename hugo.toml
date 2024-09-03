@@ -4,7 +4,7 @@ baseURL = "http://example.org/"
 theme = "LoveIt"
 
 # website title
-title = "My New Hugo Site"
+title = "Caiyi's Blog"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
@@ -13,8 +13,8 @@ languageName = "English"
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Caiyi Ku"
+  email = "kucaiyi@gmail.com"
   link = ""
 
 # Menu config
@@ -32,20 +32,50 @@ languageName = "English"
     title = ""
   [[menu.main]]
     weight = 2
-    identifier = "tags"
+    identifier = "about"
     pre = ""
     post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-  [[menu.main]]
-    weight = 3
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
+    name = "About"
+    url = "/about/"
+    title = "About Caiyi"
+  # [[menu.main]]
+  #   weight = 2
+  #   identifier = "tags"
+  #   pre = ""
+  #   post = ""
+  #   name = "Tags"
+  #   url = "/tags/"
+  #   title = ""
+  # [[menu.main]]
+  #   weight = 3
+  #   identifier = "categories"
+  #   pre = ""
+  #   post = ""
+  #   name = "Categories"
+  #   url = "/categories/"
+  #   title = ""
+
+[params]
+
+  [params.header.title]
+    # optional site title override for the app when added to an iOS home screen or Android launcher
+    name = "Caiyi's Blog"
+
+  # Home page config
+  # 主页信息设置
+  [params.home]
+    # amount of RSS pages
+    # RSS 文章数目
+    rss = 10
+    # Home page profile
+    # 主页个人信息
+    [params.home.profile]
+      subtitle = "some random stuff I did in spare time"
+
+  [params.social]
+    Linkedin = "https://www.linkedin.com/in/caiyi-ku-87285715a/"
+    GitHub = "https://github.com/kucaiyi"
+    Email = "kucaiyi@gmail.com"
 
 # Markup related configuration in Hugo
 [markup]
