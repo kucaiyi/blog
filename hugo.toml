@@ -73,8 +73,8 @@ languageName = "English"
       subtitle = "some random stuff I did in spare time"
 
   [params.social]
-    Linkedin = "https://www.linkedin.com/in/caiyi-ku-87285715a/"
-    GitHub = "https://github.com/kucaiyi"
+    Linkedin = "caiyi-ku-87285715a"
+    GitHub = "kucaiyi"
     Email = "kucaiyi@gmail.com"
 
 # Markup related configuration in Hugo
