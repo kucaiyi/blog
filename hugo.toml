@@ -70,7 +70,10 @@ languageName = "English"
     # Home page profile
     # 主页个人信息
     [params.home.profile]
-      subtitle = "some random stuff I did in spare time"
+      # URL of avatar shown in home page
+      # 主页显示头像的 URL
+      avatarURL = "/images/avatar.JPG"
+      subtitle = "Hey there! 👋 Welcome to my corner of the internet!"
 
   [params.social]
     Linkedin = "caiyi-ku-87285715a"
